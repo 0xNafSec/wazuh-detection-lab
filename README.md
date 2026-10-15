@@ -1,6 +1,6 @@
 # Wazuh RDP Brute Force Detection Lab
 
-A home SOC lab built to simulate, detect, and document a real attack
+A home SOC lab built to simulate, detect, and document a simulated attack
 using Wazuh SIEM — from attack execution to custom detection rule
 engineering.
 
