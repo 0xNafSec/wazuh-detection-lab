@@ -37,6 +37,9 @@ Security Event ID 4625 and a custom Wazuh detection rule.
 - RDP brute forcing tools can behave inconsistently with parallel 
   connections; reducing threads (`-t 1`) and adding delay (`-W 3`) 
   improved reliability.
+- Current rule correlates failures per agent, not per source IP. Planned 
+  improvement: add `same_field` on the source IP to reduce false positives 
+  from distributed failures.
 
 ## Recommended Response
 - Enable account lockout policy after N failed attempts.
