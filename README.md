@@ -22,10 +22,12 @@ All machines run as VMware virtual machines on an isolated internal network.
 
 ## Project Structure
 
+```
 wazuh-detection-lab/
-├── screenshots/ # Evidence of each detection stage
-├── reports/ # Incident reports
-└── rules/ # Custom Wazuh detection rules
+├── screenshots/   # Evidence of each detection stage
+├── reports/       # Incident reports
+└── rules/         # Custom Wazuh detection rules
+```
 
 ## Reports
 - [Incident Report 01 — RDP Brute Force Attack](reports/01-rdp-bruteforce.md)
