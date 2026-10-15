@@ -1,0 +1,12 @@
+<group name="local,rdp,brute_force,">
+
+  <rule id="100100" level="10" frequency="5" timeframe="120">
+    <if_matched_sid>60122</if_matched_sid>
+    <description>Possible Brute Force Attack - RDP (5 failed logons from same IP within 2 minutes)</description>
+    <mitre>
+      <id>T1110</id>
+    </mitre>
+    <group>authentication_failures,</group>
+  </rule>
+
+</group>
